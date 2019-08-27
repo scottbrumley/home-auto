@@ -1,0 +1,88 @@
+{
+    "homeassistant": {
+        "homeAssistant": {
+            "states": [],
+            "services": [],
+            "events": [],
+            "isConnected": false
+        }
+    },
+    "autoden": true,
+    "autokitchen": true,
+    "kitchenbrightness": 100,
+    "denshades": 100,
+    "drivelux": {
+        "lux": 2,
+        "lightLevel": 3242,
+        "dark": true,
+        "daylight": false,
+        "updated": "2019-08-02T20:40:15-04:00"
+    },
+    "fishtankswitch": {
+        "domain": "light",
+        "service": "turn_on",
+        "data": {
+            "entity_id": "light.aeotec_zw099_smart_dimmer_6_level_2"
+        }
+    },
+    "pondswitch": {
+        "domain": "switch",
+        "service": "turn_off",
+        "data": {
+            "entity_id": "switch.denlamp_switch"
+        }
+    },
+    "frontporchswitch": {
+        "domain": "light",
+        "service": "turn_on",
+        "data": {
+            "entity_id": "light.kitchenswitch_level"
+        }
+    },
+    "frontporchbrightness": 100,
+    "drivebrightness": {
+        "brightness": 100
+    },
+    "denbrightness": 100,
+    "basementbrightness": 100,
+    "garagebrightness": 100,
+    "foyerclosetbrightness": 0,
+    "garagelux": {
+        "lux": 12,
+        "lightLevel": 10645,
+        "dark": true,
+        "daylight": false,
+        "updated": "2019-08-02T20:40:34-04:00"
+    },
+    "frontlux": {
+        "lux": 2,
+        "lightLevel": 3242,
+        "dark": true,
+        "daylight": false,
+        "updated": "2019-08-02T20:40:23-04:00"
+    },
+    "upstairshallbrightness": 100,
+    "autoupstairshall": true,
+    "autofrontporch": true,
+    "willbrightness": 100,
+    "laundrybrightness": 100,
+    "backporchbrightness": 99,
+    "autopond": true,
+    "autofishtank": true,
+    "fronttemp": {
+        "celsius": 24.59,
+        "fahrenheit": 76.26,
+        "updated": "2019-08-02T20:30:02-04:00"
+    },
+    "garagetemp": {
+        "celsius": 28.04,
+        "fahrenheit": 82.47,
+        "updated": "2019-08-02T20:28:36-04:00"
+    },
+    "drivetemp": {
+        "celsius": 23.89,
+        "fahrenheit": 75,
+        "updated": "2019-08-02T20:37:54-04:00"
+    },
+    "autodenshades": true
+}
